@@ -4,8 +4,9 @@ This repository provides sample code to reproduce figures from Liu, Schilling, e
 
 Due to space constraints, data available at the published paper website is not provided here and must be separately downloaded (see Instructions).
 
-Notes:
+## Notes:
 - environment.yml contains package versions (created using "conda env export > environment.yml")
+
 additional data files are provided in data/addData.zip:
 - rnaseq_rawcounts.txt: RNAseq raw counts matrix
 - geneTumorMatrix.txt: a matrix of genes x patients with mutation status as entry
@@ -15,7 +16,7 @@ additional data files are provided in data/addData.zip:
 
 Figures-NatMed.ipynb is a Jupyter Notebook (Python 2.7 kernel) containing sample code to reproduce paper figures. 
 
-Additional Instructions:
+## Additional Instructions:
 
 Download the following files from the Nature Medicine website and add them to the 'data/' directory:
 - CNA_matrix.xlsx
@@ -27,5 +28,7 @@ unzip the 'addData.zip' files before running the notebook
 
 
 Please contact a corresponding author for any questions, comments, or concerns regarding the paper in general.
+
 EliezerM_VanAllen@DFCI.HARVARD.EDU
+
 dirk.schadendorf@uk-essen.de
