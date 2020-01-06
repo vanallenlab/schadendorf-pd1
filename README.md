@@ -23,7 +23,7 @@ Download the following files from the Nature Medicine website and add them to th
 - Supplementary Data 2 (Rename as "RNA_TPM_matrix.txt")
 - Supplementary Tables (Rename as "Supplemental_Tables.xlsx")
 
-unzip the 'addData.zip' files before running the notebook
+Unzip the 'addData.zip' files before running the notebook and add the data files (see above) to the 'data/' directory.
 
 
 Please contact a corresponding author for any questions, comments, or concerns regarding the paper in general.
