@@ -1,0 +1,145 @@
+Sample ID	total_muts	nonsyn_muts	clonal_muts	subclonal_muts	heterogeneity	total_neoantigens	CNA_prop	gender (Male=1, Female=0)	biopsy site	monthsBiopsyPreTx	BR	PFS	OS	TimeToBR	cyclesOnTherapy	txOngoing	Tx	Mstage (IIIC=0, M1a=1, M1b=2, M1c=3)	Tx_Start_ECOG	Tx_Start_LDH	LDH_Elevated	Brain_Met	Cut_SubQ_Met	LN_Met	Lung_Met	Liver_Visc_Met	Bone_Met	progressed	dead	Primary_Type	Histology	IOTherapy	steroidsGT10mgDaily	priorMAPKTx	priorCTLA4	postCTLA4	postMAPKTx	postCombinedCTLA_PD1	numPriorTherapies	biopsy site_categ	biopsyContext (1=Pre-Ipi; 2=On-Ipi; 3=Pre-PD1; 4=On-PD1)	daysBiopsyToPD1	daysBiopsyAfterIpiStart	purity	ploidy	Age
+Patient1	34	22	12	10	0.454545455	49	0.321417021	0	skin	2.8	PD	93	283	93	4	0	Pembrolizumab	3	1	unknown	unknown	0	1	0	1	1	1	1	1	occult	x	MK3475	0	0	1	0	0	0	1	skin	3	-84	unk	0.92	1.73	NA
+Patient10	96	71	48	22	0.314285714	230	0.391383951	0	skin	0.4	PR	169	1139	81	1	0	Pembrolizumab	3	1	2186	1	0	1	1	1	1	1	1	1	skin	x	MK3475	1	1	1	1	1	0	2	skin	3	-12	107	0.83	1.84	NA
+Patient100	200	126	98	24	0.196721311	301	0.02944673	0	skin	3.1	PR	922	938	75	43	1	Nivolumab	3	1	313	1	0	1	1	0	0	0	0	1	occult	unknown	Nivolumab	0	0	1	0	0	0	1	skin	3	-94	33	0.11	2.17	NA
+Patient102	370	246	215	26	0.107883817	825	0.169389493	1	brain	2.1	MR	176	785	98	8	0	Pembrolizumab	3	0	212	1	0	0	1	0	0	0	1	0	acral	unknown	MK3475	1	0	0	0	0	0	0	brain	3	-64	na	0.7	3.24	51
+Patient104	130	96	65	28	0.301075269	329	0.206518421	0	lymph node	1.9	PR	789	789	95	31	1	Pembrolizumab	3	0	270	1	0	0	1	0	0	0	0	0	mucosal	unknown	MK3475	0	0	0	0	0	0	0	lymph node	3	-57	na	0.86	4.58	65
+Patient105	185	125	85	23	0.212962963	334	0.394305859	0	skin	0.7	MR	378	521	82	18	0	Pembrolizumab	3	0	301	1	1	0	1	0	1	0	0	1	skin	unknown	MK3475	1	0	0	0	0	1	0	skin	3	-22	na	0.86	2.42	51
+Patient106	380	245	194	36	0.156521739	726	0.22414699	0	skin	2.5	CR	780	780	311	33	1	Pembrolizumab	3	0	403	1	0	1	0	0	0	0	0	0	skin	SSM	MK3475	0	1	0	0	0	0	1	skin	3	-74	na	0.62	2.34	69
+Patient107	247	158	133	20	0.130718954	489	0.144822308	1	adrenal gland	4.4	PR	47	47	29	1	0	Pembrolizumab	3	0	254	1	0	1	1	0	0	0	1	1	skin	unkown	MK3475	0	0	0	0	0	0	0	liver/visceral	3	-132	na	0.76	5.08	76
+Patient108	69	45	31	14	0.311111111	189	0.125993376	1	lymph node	0.6	PD	77	165	77	4	0	Pembrolizumab	3	0	246	1	0	0	1	0	0	0	1	1	acral	unkown	MK3475	0	0	0	0	0	1	0	lymph node	3	-17	na	0.89	4.12	52
+Patient11	246	172	131	35	0.210843373	560	0.238964456	0	skin	0.3	PD	85	160	85	7	0	Pembrolizumab	3	1	336	1	0	1	1	0	1	0	1	1	skin	SSM	MK 3475	0	1	1	0	0	0	7	skin	3	-8	516	0.77	3.43	NA
+Patient110	1560	1007	903	40	0.042417815	2949	0.12034143	0	brain	2.3	PD	94	506	94	5	0	Pembrolizumab	3	1	341	1	1	1	1	1	0	0	1	0	skin	ssM	pembrolizumab	1	0	0	0	0	1	0	brain	3	-68	na	0.52	3.96	56
+Patient112	348	241	188	47	0.2	947	0.347155573	0	skin	5.9	PD	91	521	91	12	0	Nivolumab	3	0	212	0	0	0	0	0	1	0	1	1	skin	SSM	Nivolumab	0	0	0	1	0	0	0	skin	3	-176	na	0.42	1.74	76
+Patient116	361	230	176	38	0.177570093	636	0.131587444	0	skin	1.3	PD	64	118	64	6	0	Nivolumab	3	0	313	1	0	1	1	1	1	0	1	1	skin	NM	Nivolumab	0	0	0	0	0	0	1	skin	3	-38	na	0.62	2.11	71
+Patient117	47	34	17	14	0.451612903	110	0.392475013	0	soft tissue	0.4	PD	100	295	100	6	0	Pembrolizumab	3	0	275	1	0	1	0	0	0	0	1	1	skin	nodulair	MK3475	0	0	1	0	0	0	2	soft tissue	3	-12	306	0.33	1.88	NA
+Patient118	315	221	180	25	0.12195122	729	0.072497872	0	soft tissue	0.5	PR	1316	1316	83	33	0	Pembrolizumab	3	1	161	0	0	1	1	1	1	0	0	0	skin	superficial spreading	MK3475	0	0	1	0	0	0	2	soft tissue	3	-15	258	0.6	3.56	NA
+Patient119	114	80	41	37	0.474358974	263	0.21215863	0	nasal cavity	0.8	PD	74	260	74	4	0	Pembrolizumab	3	0	117	0	0	0	1	1	1	1	1	1	mucosal	mucosal	MK3475	0	0	1	0	1	0	1	skin	3	-24	116	0.63	2.2	NA
+Patient120	1618	1090	1013	43	0.040719697	3786	0.347430017	0	soft tissue	0.6	CR	1311	1311	79	18	0	Pembrolizumab	3	0	195	0	0	0	0	0	1	0	0	0	skin	spitzoid	MK3475	0	0	1	0	0	0	2	soft tissue	3	-19	495	0.74	3.12	NA
+Patient121	1128	767	588	128	0.17877095	2257	0.085643565	0	skin	1.6	PR	1228	1306	77	16	0	Pembrolizumab	3	1	225	0	0	1	1	1	1	0	1	0	skin	x	MK3475	1	0	1	0	0	0	1	skin	3	-49	33	0.4	2.01	NA
+Patient125	97	57	40	7	0.14893617	92	0.018852639	1	skin	0.2	CR	978	978	76	26	0	Nivolumab	3	x	248	0	0	1	1	0	1	0	0	0	skin	superficial spreading	Nivolumab	1	1	0	0	0	0	0	skin	3	-6	na	0.1	2.13	66
+Patient126	973	656	553	82	0.129133858	1862	0.070364788	1	skin	0.2	PR	742	992	223	30	0	Nivolumab	3	0	172	0	0	1	1	1	0	1	1	0	occult	x	Nivolumab	0	0	0	0	0	0	0	skin	3	-5	na	0.64	3.09	73
+Patient127	618	414	351	50	0.124688279	770	0.231090779	1	stomach	1.4	CR	866	866	74	25	0	Nivolumab	3	1	125	0	0	1	0	0	1	0	0	0	occult	x	Nivolumab	0	0	0	0	0	0	0	liver/visceral	3	-42	na	0.41	2.83	78
+Patient13	913	593	521	53	0.092334495	1733	0.13403875	1	skin	0.9	PD	44	58	44	2	0	Pembrolizumab	3	1	970	1	0	1	0	0	1	0	1	1	skin	x	MK3475	0	0	1	0	0	0	2	skin	3	-27	203	0.89	2.24	NA
+Patient130	403	281	227	48	0.174545455	728	0.132201041	0	brain	0.4	PD	124	192	110	5	0	Nivolumab	3	0	695	1	0	0	1	1	1	0	1	1	occult	na	Nivolumab	0	0	0	0	0	0	0	brain	3	-12	na	0.66	2.15	60
+Patient131	453	311	231	72	0.237623762	790	0.062751333	1	skin	5.4	PR	833	833	350	36	1	Pembrolizumab	2	0	232	0	0	0	1	1	0	0	0	0	skin	unknown	MK3475	0	0	0	0	0	0	0	skin	3	-162	na	0.64	2.22	82
+Patient132	961	630	598	17	0.027642276	2078	0.129693461	1	lung	0.6	CR	389	739	87	18	0	Pembrolizumab	2	0	192	0	0	0	0	1	0	0	1	0	skin	nodular	Pembro	0	0	0	0	0	0	0	lung	3	-18	na	0.23	3.66	58
+Patient133	518	341	256	76	0.228915663	999	0.048566109	1	skin	1.9	PD	63	370	63	3	0	Pembrolizumab	3	0	313	1	0	0	0	1	0	0	1	1	skin	LMM	Pembro	0	0	0	1	0	0	0	skin	3	-57	na	0.51	2.18	72
+Patient134	492	328	239	79	0.248427673	1029	0.079132106	1	skin	4.433333333	PD	63	590	63	3	0	Pembrolizumab	2	0	172	0	0	0	0	1	0	0	1	1	skin	nodular	Pembro	0	0	0	1	0	0	0	skin	3	-133	na	0.38	2.12	71
+Patient135	578	388	341	30	0.080862534	1137	0.030461458	1	skin	2.433333333	CR	628	628	91	28	1	Pembrolizumab	3	0	287	1	0	0	1	1	0	0	0	0	skin	SSM	Pembro	0	0	0	0	0	0	0	skin	3	-73	na	0.78	2.07	73
+Patient136	870	577	501	62	0.110124334	1895	0.267523683	1	skin	5.9	PD	62	698	62	3	0	Pembrolizumab	2	0	212	0	0	0	0	1	0	0	1	0	skin	SSM	Pembro	0	0	0	1	0	0	0	skin	3	-177	na	0.83	2.6	61
+Patient137	1263	860	679	155	0.185851319	2250	0.096268104	0	lymph node	3.7	CR	772	772	189	6	0	Pembrolizumab	3	1	216	0	0	0	1	1	0	0	0	0	occult	na	Pembro	0	0	0	0	0	0	0	lymph node	3	-111	na	0.19	2.01	90
+Patient14	44	30	21	9	0.3	52	0.244658956	0	skin	2.2	PD	76	186	76	4	0	Pembrolizumab	2	0	191	0	0	1	0	1	0	0	1	1	acral	ALM	MK 3475	1	0	0	1	0	0	0	skin	3	-67	na	0.51	1.81	50
+Patient140	3077	2077	1837	193	0.095073892	6997	0.188948385	1	skin	1.733333333	PD	67	351	67	3	0	Pembrolizumab	2	1	125	0	0	0	0	1	0	0	1	1	skin	NOS	Pembro	0	0	0	1	0	0	0	skin	3	-52	na	0.94	1.9	75
+Patient141	86	60	53	2	0.036363636	194	0.130179253	0	skin	3.033333333	PR	875	875	81	52	1	Nivolumab	3	0	242	1	0	1	0	1	0	0	0	0	skin	superficial spreading 	Nivolumab	0	0	0	0	0	0	0	skin	3	-91	na	0.72	4.49	62
+Patient142	73	48	37	10	0.212765957	198	0.117839207	0	skin	1.333333333	SD	996	996	98	31	1	Pembrolizumab	1	0	181	0	0	1	0	0	0	0	0	0	skin	nodular	MK3475	0	0	0	0	0	0	0	skin	3	-40	na	0.62	3.41	58
+Patient143	506	334	294	32	0.098159509	1163	0.206019013	1	skin	1.333333333	PD	153	630	79	8	0	Pembrolizumab	0	0	236	1	0	1	1	0	0	0	1	0	skin	superficial spreading 	MK3475	0	0	0	0	0	0	0	skin	3	-40	na	0.5	3.19	53
+Patient144	1233	824	716	84	0.105	2594	0.171967485	1	skin	7	PR	662	662	74	15	0	Pembrolizumab	3	0	255	1	0	1	1	0	1	1	0	0	skin	nodular	MK3475	0	0	0	0	0	0	0	skin	3	-210	na	0.88	1.97	85
+Patient145	433	288	264	13	0.046931408	1033	0.224408315	1	skin	6.133333333	CR	833	833	77	25	0	Pembrolizumab	3	0	308	1	0	1	1	1	1	1	0	0	skin	nodular	MK3475	0	0	0	0	0	0	0	skin	3	-184	na	0.67	3.31	63
+Patient146	564	375	306	35	0.102639296	1173	0.231218754	0	skin	4.4	CR	612	612	110	26	1	Pembrolizumab	3	0	330	1	0	1	0	1	1	0	0	0	skin	nodular	MK3475	0	0	0	0	0	0	0	skin	3	-132	na	0.89	1.98	68
+Patient147	836	542	487	39	0.074144487	1540	0.076011666	1	skin	2.2	CR	960	960	177	52	1	Nivolumab	3	0	278	1	1	1	0	1	1	0	0	0	occult	NA	Nivolumab	0	0	0	0	0	0	0	skin	3	-66	na	0.93	2.12	53
+Patient148	491	320	258	38	0.128378378	1103	0.252572663	0	skin	1.4	PR	792	792	156	33	1	Pembrolizumab	1	0	199	0	0	1	1	0	0	0	0	0	skin	nodular	MK3475	0	0	0	0	0	0	0	skin	3	-42	na	0.84	2.27	80
+Patient149	331	219	188	26	0.121495327	690	0.115692174	1	lung	0.366666667	SD	210	497	105	10	0	Pembrolizumab	3	1	218	0	0	0	1	1	1	1	1	1	skin	NMM	Pembrolizumab	0	0	0	1	0	0	0	lung	3	-11	na	0.44	2.02	75
+Patient15	263	182	134	41	0.234285714	530	0.187909079	0	skin	5	PR	105	149	84	6	0	Pembrolizumab	3	0	225	0	0	1	1	1	0	1	1	1	skin	LMM	MK 3475	1	1	1	0	0	0	3	skin	3	-150	108	0.61	2.07	NA
+Patient150	34	23	17	6	0.260869565	41	0.213885141	1	liver	1.3	PR	685	685	97	19	1	Pembrolizumab	3	0	150	0	0	0	0	1	0	1	0	0	skin	NMM	Pembrolizumab	0	0	0	0	0	0	0	liver/visceral	3	-39	na	0.69	3.67	63
+Patient154	103	72	61	9	0.128571429	216	0.131364345	0	skin	0.7	SD	251	635	82	19	1	Pembrolizumab	0	0	188	0	0	1	0	0	0	0	1	0	skin	NM	MK3475	0	0	0	0	0	0	0	skin	3	-20	na	0.23	2.07	58
+Patient155	379	255	185	62	0.251012146	784	0.188740935	1	skin	0.9	PD	113	475	113	6	0	Pembrolizumab	0	0	229	0	0	1	0	0	0	0	1	0	skin	nmm	pembrolizumab	0	0	0	0	1	0	0	skin	3	-26	na	0.6	1.85	48
+Patient156	303	202	160	36	0.183673469	630	0.251593523	1	skin	0.5	PD	80	87	80	4	0	Pembrolizumab	3	0	450	1	1	1	1	1	0	0	1	1	skin	x	pembrolizumab	0	0	0	0	0	0	0	skin	3	-15	na	0.51	1.97	57
+Patient157	666	443	371	59	0.137209302	1074	0.276335904	1	skin	5.5	PD	83	143	83	7	0	Pembrolizumab	3	1	155	0	0	0	1	1	0	0	1	0	skin	x	pembrolizumab	0	0	0	NA	NA	NA	0	skin	3	-166	na	0.81	1.88	75
+Patient158	3618	2296	1951	303	0.134427684	6776	0.1579233	1	adrenal gland	7	PR	162	194	62	na	0	Pembrolizumab	3	1	457	1	0	0	1	0	1	0	1	0	skin	x	pembrolizumab	0	1	0	0	0	0	1	liver/visceral	3	-210	na	0.75	1.99	70
+Patient159	66	46	31	13	0.295454545	204	0.280752813	0	maxillary sinus, hard palate	6.833333333	SD	216	288	62	12	0	Pembrolizumab	3	1	242	0	0	0	1	0	1	1	1	0	mucosal	na	MK3475	0	0	1	0	0	0	1	bone	1	-205	-118	0.78	2.92	NA
+Patient162	2388	1566	1502	31	0.020221787	4779	0.123756314	1	intestinal metastasis	1	PD	53	201	53	9	0	Nivolumab	3	0	464	1	0	0	1	1	1	0	1	1	occult	na	Nivolumab	0	0	1	0	0	0	1	liver/visceral	3	-30	105	0.83	4.2	NA
+Patient163	305	201	180	12	0.0625	470	0.193168456	1	lymph node	10.26666667	PD	48	173	48	9	0	Nivolumab	3	1	253	1	0	1	1	0	0	1	1	1	occult	na	Nivolumab	0	1	1	0	1	1	3	lymph node	1	-308	-22	0.83	2.82	NA
+Patient165	963	641	560	60	0.096774194	2015	0.324660445	1	soft tissue	1.133333333	PD	13	75	13	2	0	Pembrolizumab	3	0	335	1	0	1	1	0	0	0	1	0	skin	NM	MK3475	0	0	0	0	0	1	0	soft tissue	3	-34	na	0.8	1.79	63
+Patient166	13	10	6	4	0.4	20	0.151364891	0	soft tissue	2.7	PR	205	205	121	3	0	Nivolumab	3	0	840	1	1	1	1	1	1	1	0	1	skin	unknown	Nivolumab	1	0	0	0	0	1	0	soft tissue	3	-81	na	0.86	4.53	42
+Patient167	54	42	31	11	0.261904762	73	0.541130726	0	brain	0.9	PD	57	282	57	8	1	Nivolumab	3	0	499	1	1	1	1	1	1	1	1	1	occult	na	Nivolumab	1	0	0	0	0	1	0	brain	3	-27	na	0.63	2.12	64
+Patient168	49	31	26	5	0.161290323	94	0.178141854	1	lymph node	2.6	PR	580	623	71	25	1	Nivolumab	3	0	334	1	0	0	1	0	0	0	0	0	skin	unknown	Nivolumab	1	1	0	0	0	1	1	lymph node	3	-78	na	0.78	3.52	61
+Patient169	2100	1382	1113	235	0.174332344	4545	0.196949537	1	skin	4.1	PR	543	543	189	22	0	Pembrolizumab	3	0	372	1	0	1	1	0	0	0	0	0	skin	NMM	MK3475	no	0	0	0	0	0	0	skin	3	-123	na	0.59	1.96	84
+Patient17	550	365	305	52	0.145658263	821	0.059114148	1	lymph node	5.2	SD	202	686	110	21	0	Nivolumab	3	0	192	0	0	0	1	1	1	1	1	1	skin	NM	Nivolumab	0	0	1	0	1	Reexposure PD-1	1	lymph node	3	-156	280	0.38	2.91	NA
+Patient170	85	56	48	8	0.142857143	148	0.116162455	1	skin	2.2	SD	347	347	158	14	1	Pembrolizumab	0	0	181	0	0	1	0	0	0	0	0	0	skin	ALM	MK3475	no	0	0	0	0	0	0	skin	3	-67	na	0.78	3.12	82
+Patient172	1014	678	528	113	0.176287051	2400	0.061750916	1	skin	4.9	SD	272	272	81	12	0	Pembrolizumab	0	0	189	0	0	1	0	0	0	0	1	0	skin	NMM	MK3475	no	0	0	0	0	0	0	skin	3	-148	na	0.23	2.2	73
+Patient173	104	72	58	9	0.134328358	212	0.168239373	0	lung	0.4	PD	16	42	16	1	0	Pembrolizumab	3	0	236	0	0	0	0	1	1	0	1	1	skin	ALM	MK3475	no	0	0	0	0	0	0	lung	3	-12	na	0.8	3.32	72
+Patient179	729	478	407	65	0.137711864	1485	0.125244494	0	lymph node	7.233333333	PR	336	653	83	16	0	Pembrolizumab	2	0	173	0	0	0	0	1	0	0	1	0	skin	NM	MK3475	0	0	0	0	0	0	0	lymph node	3	-217	na	0.84	1.98	66
+Patient18	526	342	293	42	0.125373134	983	0.147651333	1	skin	16.3	PD	86	130	86	8	0	Nivolumab	0	0	217	0	0	1	0	0	0	0	1	1	skin	SSM	Nivolumab	0	0	0	0	0	0	0	skin	3	-490	na	0.92	1.9	71
+Patient180	868	583	475	97	0.16958042	2146	0.052105997	1	skin	0.833333333	SD	343	380	84	18	0	Pembrolizumab	3	1	272	1	1	1	1	1	1	1	1	1	skin	SSM 	MK3475	0	1	0	0	0	0	1	skin	3	-25	na	0.77	2.33	71
+Patient181	409	275	217	38	0.149019608	757	0.333306508	0	skin	0.666666667	CR	476	476	84	17	1	Nivolumab	3	0	249	1	0	1	0	1	0	0	0	0	skin	SSM 	Nivolumab 	0	0	0	0	0	0	0	skin	3	-20	na	0.64	1.98	61
+Patient182	270	173	135	32	0.191616766	557	0.143139474	0	skin	2.533333333	PD	84	748	84	12	0	Nivolumab	3	0	237	1	0	1	1	0	1	0	1	1	skin	x	Nivolumab 	0	0	0	0	0	1	0	skin	3	-76	na	0.2	2.07	50
+Patient183	524	327	280	39	0.122257053	938	0.165677406	1	skin	6.566666667	PD	84	572	84	25	0	Pembrolizumab	3	1	220	0	0	1	1	0	0	0	1	1	skin	NMM	MK3475	0	0	0	0	0	1	1	skin	3	-197	na	0.51	3.03	59
+Patient184	3001	1983	1636	284	0.147916667	6173	0.084780734	1	skin	0	CR	372	513	93	28	1	Nivolumab	3	0	187	0	1	0	0	0	0	0	0	0	skin	LMM	Nivolumab 	0	0	0	0	0	0	0	skin	3	0	na	0.66	2.15	77
+Patient185	229	157	122	27	0.181208054	490	0.201951363	1	skin	1.133333333	SD	203	203	84	10	1	Nivolumab	3	0	391	1	0	0	0	1	1	0	0	0	skin	NMM 	Nivolumab 	0	0	0	0	0	1	0	skin	3	-34	na	0.55	1.94	76
+Patient187	196	133	106	23	0.178294574	328	0.160872322	0	skin	1.166666667	CR	617	617	48	30	1	Pembrolizumab	1	0	193	0	0	1	0	0	0	0	0	0	skin	SSM	Pembro	0	1	1	0	0	0	3	skin	3	-35	687	0.75	2.1	NA
+Patient188	41	22	16	6	0.272727273	54	0.251935266	1	skin	1.166666667	PD	23	74	23	1	0	Pembrolizumab	1	1	184	0	0	0	0	1	0	0	1	1	acral	ALM	Pembro	0	0	0	0	0	0	1	skin	3	-35	na	0.91	2.13	82
+Patient189	68	50	32	14	0.304347826	134	0.197113039	0	skin	3.8	PR	406	718	267	9	0	Pembrolizumab	3	1	275	1	0	0	1	0	0	0	1	0	acral	unknown	MK3475	0	0	0	0	0	0	0	skin	3	-115	na	0.19	2.23	74
+Patient191	6550	4234	3501	618	0.150036417	10277	0.110598811	1	skin	5.3	PR	658	658	72	41	1	Nivolumab	2	1	217	0	0	0	1	1	0	0	0	0	skin	Lentigo maligna Melanom	Nivolumab	0	0	0	0	0	0	0	skin	3	-160	na	0.67	2.07	66
+Patient192	695	461	370	75	0.168539326	1419	0.145393374	0	skin	1.166666667	PR	249	290	18	5	0	Pembrolizumab	3	0	314	1	1	0	1	1	1	0	1	0	skin	unknown	MK3475	0	1	1	0	0	0	2	skin	3	-35	268	0.46	3.2	NA
+Patient193	904	571	458	72	0.135849057	1570	0.178066367	0	skin	1.2	SD	476	659	98	12	1	Pembrolizumab	0	0	229	0	0	1	0	0	0	0	1	0	skin	unknown	MK3475	0	0	0	0	0	0	0	skin	3	-35	na	0.77	1.84	69
+Patient195	2893	1963	1822	80	0.042060988	5347	0.222592175	1	skin	4.466666667	PR	895	895	69	26	0	Nivolumab	3	1	203	0	0	1	1	1	0	1	0	0	skin	lentigo-maligna	Nivolumab	0	0	1	0	0	0	1	skin	1	-134	-32	0.4	3.67	NA
+Patient196	2639	1734	1506	167	0.099820681	5696	0.241796322	1	brain	2.766666667	PD	81	81	81	3	0	Nivolumab	3	2	196	0	1	1	0	0	0	0	1	1	occult	occult	Nivolumab	1	1	0	0	0	0	1	brain	3	-83	na	0.88	2.07	70
+Patient197	90	59	45	7	0.134615385	185	0.447039513	0	brain	2.166666667	PR	89	960	147	66	1	Nivolumab	3	1	295	1	1	0	0	1	0	0	1	0	skin	nodular	Nivolumab	0	0	0	0	0	0	0	brain	3	-65	na	0.81	2.59	63
+Patient20	569	394	315	65	0.171052632	1216	0.13463337	0	skin	0	PD	84	242	84	15	0	Nivolumab	3	0	214	0	1	1	1	1	1	1	1	1	skin	NM	Nivolumab	1	0	1	0	0	0	1	skin	3	0	209	0.45	2.06	NA
+Patient200	1130	735	308	405	0.56802244	1897	0.155330759	1	brain	0.5	PD	108	512	108	8	0	Pembrolizumab	3	0	448	1	1	0	1	0	0	1	1	1	skin	lentigo-maligna	MK3475	0	0	0	0	0	1	1	brain	3	-15	na	0.67	2.03	71
+Patient201	82	58	43	14	0.245614035	85	0.02425638	1	rectal/anal	2.933333333	PD	69	167	69	4	0	Pembrolizumab	0	1	178	0	0	1	1	0	0	0	1	1	mucosal	nodular	MK3475	0	0	0	0	1	0	0	skin	3	-88	na	0.88	2.07	75
+Patient203	99	72	50	21	0.295774648	141	0.134906799	1	skin	3.733333333	PD	99	626	99	6	0	Pembrolizumab	2	1	224	0	0	1	1	1	1	0	1	1	acral	spindle-shaped	MK3475	0	0	1	0	0	1	1	skin	1	-112	-13	0.46	2.06	NA
+Patient204	2645	1772	1430	296	0.171494786	5582	0.187823806	1	skin	3.9	CR	630	819	347	39	1	Pembrolizumab	1	0	198	0	0	1	1	0	0	0	0	0	occult	occult	MK3475	0	0	0	0	0	0	0	skin	3	-117	na	0.59	3.84	76
+Patient205	853	572	466	60	0.114068441	1702	0.132058145	0	skin	1.2	PD	190	392	190	10	0	Pembrolizumab	3	0	215	1	0	0	1	1	1	1	1	1	skin	spindle-shaped	MK3475	0	0	0	0	0	0	0	skin	3	-36	na	0.8	1.99	77
+Patient206	8641	5426	3997	1243	0.23721374	17933	0.308646455	1	skin	0.3	PD	42	90	42	3	0	Pembrolizumab	3	1	178	0	0	0	0	1	1	0	1	1	skin	desmoplastic	MK3475	0	0	1	0	0	0	1	skin	3	-9	110	0.28	2.54	NA
+Patient21	148	105	52	46	0.469387755	184	0.236006699	0	skin	1.7	PR	906	906	90	15	0	Pembrolizumab	3	0	179	0	0	0	1	1	1	0	0	0	acral	ALM	MK3475	1	0	1	0	0	0	1	skin	3	-50	217	0.93	2.03	NA
+Patient22	76	58	42	16	0.275862069	203	0.102086979	1	skin	3.5	PD	91	253	91	7	0	Nivolumab	3	1	304	1	0	1	1	0	0	0	1	1	acral	SSM	nivolumab	1	0	1	0	0	0	1	skin	1	-105	-6	0.88	2.09	NA
+Patient23	203	132	111	18	0.139534884	450	0.184649305	1	skin	2.1	PD	77	975	77	6	0	Nivolumab	0	0	unknown	unknown	0	1	1	0	0	0	1	0	skin	nmm	nivolumab	0	0	0	0	0	0	0	skin	3	-63	na	0.94	1.83	67
+Patient24	398	276	231	37	0.138059701	837	0.136561942	1	skin	1.3	PD	31	137	31	6	0	Nivolumab	3	1	334	1	0	1	1	1	1	0	1	1	occult	na	Nivolumab	1	0	1	0	0	0	2	skin	3	-40	301	0.63	3.26	NA
+Patient25	491	328	273	46	0.144200627	1088	0.010357407	1	skin	1.8	PR	752	1096	84	47	1	Pembrolizumab	3	0	956	1	0	1	1	1	1	1	1	0	skin	SSM	MK3475	0	0	1	0	0	0	1	skin	2	-54	42	0.85	2.07	NA
+Patient27	300	217	156	54	0.257142857	717	0.194713842	1	lymph node	1.1	PD	94	431	94	10	0	Pembrolizumab	1	0	276	0	0	1	1	0	0	0	1	1	skin	NM	MK3475	0	0	1	0	0	0	1	lymph node	3	-32	434	0.75	1.91	NA
+Patient30	242	158	130	17	0.115646259	481	0.303313324	0	skin	0.7	SD	133	213	93	5	0	Pembrolizumab	3	0	609	1	0	0	1	1	1	0	1	1	skin	unknown	MK3475	0	1	1	0	0	0	7	skin	3	-21	904	0.46	4.73	NA
+Patient31	235	167	145	21	0.126506024	372	0.233946178	1	skin	0.2	PD	85	426	85	7	0	Pembrolizumab	3	0	unknown	unknown	0	1	1	1	0	1	1	1	skin	unknown	MK3475	0	0	1	0	0	0	1	skin	3	-6	214	0.88	2.97	NA
+Patient32	396	270	217	38	0.149019608	769	0.376051775	0	skin	0	PD	49	53	49	3	0	Pembrolizumab	3	0	2419	1	0	1	0	1	1	0	1	1	skin	unknown	MK3475	0	1	1	0	0	0	2	skin	3	0	59	0.84	2.72	NA
+Patient33	17	10	7	2	0.222222222	35	0.023681914	0	skin	3.6	PR	1679	1679	79	81	1	Pembrolizumab	3	0	317	0	0	1	1	1	1	0	0	0	skin	NM	MK3475	0	0	1	0	0	0	1	skin	1	-107	-44	0.17	2.11	NA
+Patient34	26	18	12	6	0.333333333	24	0.006697878	1	skin	3.2	PR	240	1691	84	12	0	Pembrolizumab	2	0	409	0	0	1	0	1	0	0	1	0	skin	NM	MK3475	0	0	1	0	0	0	1	skin	1	-97	-27	0.12	1.98	NA
+Patient35	65	40	27	12	0.307692308	112	0.162618152	1	skin	2.1	SD	181	968	93	13	0	Nivolumab	3	0	216	0	0	1	1	0	1	0	1	1	skin	nodular	Nivolumab	0	0	1	1	0	1	2	skin	3	-63	536	0.77	2.15	NA
+Patient36	277	180	157	20	0.11299435	543	0.18582013	1	lung	2.7	PD	63	451	63	5	0	Nivolumab	3	1	282	1	0	0	0	1	0	0	1	1	skin	nodular	Nivolumab	0	0	0	1	0	0	0	lung	3	-81	na	0.84	2	78
+Patient37	48	40	27	12	0.307692308	60	0.074993396	1	lymph node	1.2	PD	77	275	77	7	0	Nivolumab	3	0	335	1	0	1	1	1	1	1	1	1	mucosal	unknown	Nivolumab	0	0	0	0	0	0	0	lymph node	3	-35	na	0.3	2.09	51
+Patient38	60	39	23	16	0.41025641	85	0.190553631	1	Colon	8.2	PD	98	343	98	6	0	Nivolumab	3	0	376	1	0	1	1	1	0	1	1	1	skin	SSM	Nivolumab	0	1	1	0	1	0	2	liver/visceral	1	-246	-124	0.78	2	NA
+Patient39	16	11	8	3	0.272727273	24	0.013900327	1	lymph node	3.3	SD	937	937	96	14	0	Nivolumab	1	1	222	0	0	1	1	0	0	0	0	0	skin	ALM	Nivolumab	0	0	0	0	0	0	0	lymph node	3	-99	na	0.11	2.12	77
+Patient4	603	384	314	53	0.144414169	1321	0.121665383	1	skin	5.1	CR	574	600	151	26	0	Pembrolizumab	3	0	149	0	0	1	1	1	1	0	1	1	skin	not classified	MK3475	no	0	1	0	0	0	2	skin	1	-154	-106	0.88	2.03	NA
+Patient40	9222	6103	691	5228	0.883257307	13972	0.353402367	0	liver	2.4	PD	63	468	63	15	0	Nivolumab	3	0	378	1	0	0	1	0	1	0	1	1	skin	unknown	Nivolumab	0	0	0	0	0	0	1	liver/visceral	3	-73	na	0.91	1.73	52
+Patient41	15258	9835	8924	662	0.069059044	24622	0.079081162	1	lung	1.4	PR	106	1685	63	7	0	Nivolumab	2	0	172	0	0	0	0	1	0	0	1	0	skin	unknown	Nivolumab	0	0	1	0	0	0	2	lung	3	-41	214	0.7	3.97	NA
+Patient42	767	507	450	48	0.096385542	1610	0.123826962	1	skin	5.666666667	CR	1027	1027	83	52	1	Nivolumab	3	0	296	1	0	1	0	0	0	0	0	0	skin	nodular	Nivolumab	0	0	1	0	0	0	1	skin	1	-170	-61	0.81	2.69	NA
+Patient43	121	84	61	21	0.256097561	291	0.431160567	1	lymph node	0.7	PR	750	925	64	46	1	Nivolumab	3	0	280	1	0	0	1	1	1	0	1	0	skin	ALM	Nivolumab	0	0	0	0	0	0	0	lymph node	3	-22	na	0.28	2.67	80
+Patient44	91	64	44	19	0.301587302	101	0.457883791	1	soft tissue	0.5	PR	922	922	89	52	1	Nivolumab	3	0	326	1	0	0	1	1	1	0	0	0	mucosal	unknown	Nivolumab	0	0	1	0	0	0	1	soft tissue	3	-15	108	0.32	1.73	NA
+Patient45	423	293	219	71	0.244827586	793	0.216010791	1	skin	0.8	PR	1666	1666	185	approx. 120	1	Nivolumab	3	0	278	1	0	0	1	1	1	0	0	0	skin	unk	Nivolumab	0	0	1	0	0	0	3	skin	3	-23	310	0.61	2.08	NA
+Patient46	1272	833	732	48	0.061538462	2022	0.127562586	1	lymph node	1.2	SD	896	896	114	34	1	Pembrolizumab	3	0	292	1	0	0	0	1	0	0	0	0	skin	LMM	MK3475	0	0	0	0	0	0	0	lymph node	3	-37	na	0.21	3.62	76
+Patient47	1087	756	641	66	0.093352192	2511	0.19079258	0	skin	2.5	PD	74	937	74	6	0	Nivolumab	3	0	340	1	0	1	1	1	0	1	1	0	skin	nodular	Nivolumab	0	0	0	1	0	0	0	skin	3	-74	na	0.91	3.19	59
+Patient48	42	29	17	10	0.37037037	87	0.188372462	0	skin	4.8	PD	50	53	50	1	0	Pembrolizumab	3	1	670	1	0	1	1	1	0	1	1	1	occult	x	MK3475	0	0	0	0	0	0	1	skin	3	-143	na	0.84	2.14	83
+Patient49	2423	1624	1442	155	0.097056982	4836	0.21576030400000001	0	skin	1	PR	280	1635	95	18	0	Nivolumab	3	0	237	0	0	1	1	1	1	0	1	0	skin	ALM	Nivolumab	0	1	1	0	0	0	4	skin	3	-30	380	0.69	2.13	NA
+Patient50	305	195	168	15	0.081967213	599	0.223036883	0	skin	8	MR	105	175	66	8	0	Pembrolizumab	3	0	746	1	0	1	1	1	1	1	1	1	mucosal	unknown	MK3475	1	0	1	0	0	0	2	skin	1	-240	-20	0.61	3.59	NA
+Patient51	1723	1134	989	112	0.101725704	3069	0.15900598	1	skin	1.3	PR	471	1547	56	34	0	Nivolumab	2	0	185	0	0	0	0	1	0	0	1	0	skin	SSM	Nivo	0	0	0	0	0	0	0	skin	3	-38	na	0.3	3.82	70
+Patient54	465	288	245	39	0.137323944	536	0.106449389	1	lymph node	2.5	MR	429	1017	105	21	0	Pembrolizumab	3	0	255	1	0	1	1	1	0	1	1	1	skin	SSM	MK3475	0	1	1	0	1	1	3	lymph node	3	-76	310	0.19	2.19	NA
+Patient55	701	478	371	93	0.200431034	1421	0.092364302	1	skin	4.5	PR	1503	1503	83	approximatly 96	1	Nivolumab	3	0	182	0	0	0	1	1	1	0	0	0	skin	na	Nivo	0	0	0	0	0	0	0	skin	3	-134	na	0.57	1.94	76
+Patient56	21	17	14	3	0.176470588	42	0.062731432	1	skin	-0.2	PD	71	122	71	6	0	Nivolumab	3	0	359	1	0	0	0	0	1	1	1	1	skin	na	Nivo	0	0	1	0	1	0	1	skin	4	5	127	0.15	2.23	NA
+Patient58	138	91	71	17	0.193181818	303	0.257008203	1	skin	3.2	PD	77	303	77	6	0	Nivolumab	3	1	528	1	0	1	1	1	0	0	1	1	skin	NM	Nivo	0	0	1	0	0	0	1	skin	2	-96	46	0.66	2.98	NA
+Patient59	509	315	243	68	0.218649518	1025	0.064360264	1	skin	3.1	PD	82	191	82	7	0	Nivolumab	3	1	260	1	0	0	1	1	1	0	1	1	skin	NM	Nivo	0	0	1	0	1	0	1	skin	3	-94	140	0.37	2.1	NA
+Patient6	1407	935	26	870	0.970982143	2041	0.470864328	0	skin	0.8	SD	124	687	83	8	0	Pembrolizumab	2	0	177	0	0	1	1	1	0	0	1	1	skin	NMM	MK3475	no	0	1	0	0	1	2	skin	3	-24	76	0.83	1.67	NA
+Patient60	574	392	280	94	0.251336898	1106	0.484152028	1	skin	0.6	SD	175	662	84	13	0	Nivolumab	2	0	245	0	0	1	1	0	0	0	1	1	skin	na	Nivo	0	0	1	0	0	1	1	skin	3	-17	117	0.36	1.54	NA
+Patient61	3254	2117	1555	496	0.241833252	5854	0.231012549	0	skin	2.6	SD	987	987	154	65	1	Nivolumab	3	0	204	0	0	1	1	0	0	1	0	0	skin	SSM	Nivolumab	0	0	1	0	0	0	1	skin	2	-77	30	0.42	1.83	NA
+Patient62	9594	6249	5401	203	0.036224126	18457	0.148674622	0	skin	2.2	PR	1001	1001	99	62	1	Nivolumab	3	0	191	0	0	1	1	1	1	0	0	0	skin	LMM	Nivolumab	0	0	1	0	0	0	1	skin	3	-65	336	0.5	3.7	NA
+Patient63	142	84	46	20	0.303030303	188	0.472099143	0	skin	2.5	PD	89	178	89	12	0	Nivolumab	3	1	259	1	0	1	1	1	1	1	1	1	mucosal	mucosal	Nivolumab	0	0	1	0	0	0	1	skin	3	-74	425	0.93	2.62	NA
+Patient67	106	74	39	31	0.442857143	281	0.124770087	0	skin	3.4	PD	94	136	94	4	0	Nivolumab	3	0	244	0	0	1	1	0	1	1	1	1	mucosal	mucosal	Nivolumab	0	0	0	0	0	0	0	skin	3	-101	na	0.95	2.14	72
+Patient7	121	79	47	28	0.373333333	138	0.168904284	1	skin	2.3	SD	217	269	77	7	0	Pembrolizumab	3	0	263	1	0	1	1	1	1	0	1	1	occult	occult melanoma	MK3475	no	0	1	0	0	0	2	skin	2	-69	54	0.88	2.35	NA
+Patient72	184	121	103	15	0.127118644	371	0.171137069	1	skin	4	PD	67	395	67	x	0	Nivolumab	1	0	216	0	0	1	0	0	0	0	1	0	skin	SSM	nivolumab	0	0	1	0	1	0	2	skin	3	-119	240	0.78	3.89	NA
+Patient73	127	90	69	17	0.197674419	262	0.232352565	1	skin	1.9	PD	85	846	85	22	0	Nivolumab	3	1	279	1	0	1	1	0	0	0	1	1	skin	x	nivolumab	0	0	1	0	0	1	2	skin	3	-56	139	0.77	3.33	NA
+Patient75	1112	725	645	62	0.087694484	2304	0.201142567	1	skin	0.2	PR	891	891	78	15	0	Nivolumab	3	3	254	1	0	1	0	1	0	0	1	0	occult	na	nivolumab	0	0	0	0	0	0	0	skin	3	-6	na	0.55	3.76	73
+Patient77	151	92	67	19	0.220930233	201	0.180587685	0	lung	15.3	PD	95	444	95	13	0	Pembrolizumab	3	0	228	0	1	0	0	1	0	0	1	1	skin	ssm	pembrolizumab	1	0	0	0	1	0	0	lung	3	-459	na	0.74	1.98	40
+Patient78	64	43	33	10	0.23255814	123	0.390218557	0	skin	0.7	PD	86	356	86	11	0	Pembrolizumab	2	0	178	0	0	1	0	1	0	0	1	1	skin	nmm	pembrolizumab	0	1	0	0	1	0	1	skin	3	-21	na	0.27	2.58	51
+Patient79	320	205	149	48	0.243654822	591	0.214096097	0	brain	4.5	PD	84	849	84	35	1	Pembrolizumab	3	0	171	0	0	1	1	1	0	0	1	0	skin	ssm	pembrolizumab	1	1	0	0	0	0	1	brain	3	-136	na	0.69	1.91	58
+Patient8	311	194	152	40	0.208333333	638	0.273852935	1	skin	3.9	SD	955	1005	72	4	0	Pembrolizumab	2	0	245	0	0	1	0	1	0	0	1	1	skin	NMM	MK3475	yes, 140 mg Decortin H (Colitis)	0	0	0	0	0	0	skin	3	-116	na	0.72	2.01	66
+Patient80	47	33	27	6	0.181818182	104	0.146472332	1	lymph node	12.96666667	PD	77	502	77	4	0	Pembrolizumab	2	0	140	0	0	0	1	1	0	0	1	1	acral	ALM	Pembro	0	0	1	0	0	0	1	lymph node	1	-389	-50	0.33	3.52	NA
+Patient82	2253	1477	1390	48	0.033379694	4650	0.20502101	1	brain	42	PD	89	131	89	4	0	Pembrolizumab	3	1	1195	1	1	0	0	1	1	0	1	1	occult	na	Pembro	0	1	1	1	1	0	3	brain	1	-1260	-620	0.84	4.08	NA
+Patient83	309	194	149	39	0.207446809	539	0.135187708	1	skin	8.1	PD	71	71	71	3	0	Nivolumab	3	1	496	1	0	0	1	1	0	0	1	1	skin	SSM	Nivolumab	0	0	1	0	0	0	1	skin	1	-243	-147	0.94	2.01	NA
+Patient84	66	47	30	16	0.347826087	134	0.100521216	0	skin	0.6	PD	83	164	83	4	0	Pembrolizumab	3	NA	247	0	0	1	0	0	1	0	1	1	mucosal	mucosal	MK3475	0	0	1	0	0	0	1	skin	3	-17	151	0.47	2.17	NA
+Patient86	435	279	196	73	0.271375465	576	0.034541373	1	lymph node	1.6	SD	1327	1327	79	48	1	Pembrolizumab	3	NA	144	0	0	1	1	0	1	0	1	0	skin	NM	MK3475	0	0	1	0	0	0	2	lymph node	3	-48	372	0.14	2.49	NA
+Patient87	121	87	72	14	0.162790698	222	0.251171185	0	skin	0.466666667	PR	1142	1263	85	22	0	Pembrolizumab	3	NA	343	1	0	0	1	0	0	1	1	0	occult	unknown	MK3475	0	0	1	0	0	0	1	skin	3	-14	335	0.36	3.48	NA
+Patient88	55	37	29	7	0.194444444	131	0.369739491	1	skin	0.5	PD	69	74	69	3	0	Pembrolizumab	3	NA	510	1	0	1	1	0	0	0	1	1	acral	NM	MK3475	0	0	1	0	0	0	1	skin	3	-14	89	0.47	3.24	NA
+Patient9	911	652	562	80	0.124610592	1996	0.111034165	0	skin	1.3	PD	21	963	21	2	0	Nivolumab	0	0	192	0	0	1	1	0	0	0	1	0	skin	NMM	Nivolumab	no	0	0	0	0	0	0	skin	3	-39	na	0.88	2.02	71
+Patient94	414	268	227	21	0.084677419	929	0.902095292	0	skin	1	PD	40	40	40	1	0	Pembrolizumab	3	2	817	1	1	1	1	1	1	1	1	1	skin	nodular	MK3475	1	1	1	0	0	0	2	skin	3	-31	140	0.85	1.13	NA
+Patient96	959	649	588	50	0.078369906	2136	0.196499246	1	pancreas	2.7	CR	913	913	273	10	0	Nivolumab	3	0	174	0	0	0	0	1	1	0	0	0	skin	unknown	Nivolumab	0	0	0	0	0	0	0	liver/visceral	3	-81	na	0.82	2.22	70
+Patient98	472	302	219	74	0.252559727	790	0.223074401	0	lung	0.8	PD	73	683	73	28	0	Nivolumab	2	0	192	0	0	0	1	1	0	0	1	1	occult	NA	Nivolumab	1	0	0	0	0	1	0	lung	3	-24	na	0.6	1.99	62
+Patient99	1392	909	690	190	0.215909091	2796	0.187194201	1	soft tissue	5.2	PR	319	921	158	12	0	Nivolumab	3	0	355	1	0	0	1	1	1	0	1	0	skin	unknown	Nivolumab	1	0	0	0	0	1	0	soft tissue	3	-155	na	0.34	2.83	79
